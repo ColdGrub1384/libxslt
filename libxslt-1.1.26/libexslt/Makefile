@@ -225,10 +225,10 @@ AUTOCONF = ${SHELL} /Users/adrianlabbe/Downloads/libxslt-master/missing autoconf
 AUTOHEADER = ${SHELL} /Users/adrianlabbe/Downloads/libxslt-master/missing autoheader
 AUTOMAKE = ${SHELL} /Users/adrianlabbe/Downloads/libxslt-master/missing automake-1.16
 AWK = awk
-CC = /usr/local/bin/iosxcrun --sdk iphoneos clang -mios-version-min=12.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk -arch arm64
+CC = clang
 CCDEPMODE = depmode=none
 CFLAGS = -arch arm64 -mios-version-min=12.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk -Wall -Wextra -Wformat=2 -Wmissing-format-attribute -Wshadow
-CPP = /usr/local/bin/iosxcrun --sdk iphoneos clang -mios-version-min=12.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk -arch arm64 -E
+CPP = clang
 CPPFLAGS = -arch arm64 -mios-version-min=12.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
 CRYPTO_TESTDIR = 
 CYGPATH_W = echo
